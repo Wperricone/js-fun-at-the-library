@@ -48,7 +48,7 @@ var isFavorite = false
 var isShortStory = 50;
   if (isShortStory <= 25) {
     console.log(true)
-  }  else if (isShortStory >25) {
+  }  else if (isShortStory > 25) {
       console.log(false);
   }
 
@@ -71,14 +71,14 @@ else (pages > 1000)
 // statement 'I recently read the [title] book'. In either case, the value stored in
 // the "title" variable should be included in the logged statement.
 var isFavorite = false
-function favorite() {
-  if (isFavorite = true)
+function favorite(isFavorite) {
+  if (isFavorite = true) {
    console.log(`"My favorite book is ${title}!"`);
-    else (isFavorite = false)
+ }  else {
      console.log(`"I recently read the ${title} book."`)
-
 }
-
+}
+favorite();
 
 //------------------------- Arrays -------------------------//
 
